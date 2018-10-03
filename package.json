@@ -2,7 +2,8 @@
   "name": "slate-automerge",
   "version": "0.2.0",
   "description": "Slate-Automerge bridge for building collaborative editors using CRDT",
-  "main": "dist/slateAutomergeBridge.js",
+  "main": "dist/lib/slateAutomergeBridge.js",
+  "module": "dist/lib/slateAutomergeBridge.js",
   "author": "humandx",
   "license": "MIT",
   "dependencies": {

@@ -4,5 +4,5 @@ import slateCustomToJson from "./slateCustomToJson"
 import automergeJsonToSlate from "./automergeJsonToSlate"
 
 export {
-    applySlateOperations, applyAutomergeOperations, automergeJsonToSlate, slateCustomToJson
+  applySlateOperations, applyAutomergeOperations, automergeJsonToSlate, slateCustomToJson
 }
