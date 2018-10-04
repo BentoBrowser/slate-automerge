@@ -32,7 +32,7 @@ const allowedOperations = [
 */
 export const applySlateOperations = (doc, slateOperations) => {
   const message = "Change log"
-  const docNew = Automerge.change(dpc, message, doc => {
+  const docNew = Automerge.change(doc, message, doc => {
     // Use the Slate operations to modify the Automerge document.
     applySlateOperationsHelper(doc, slateOperations)
   })
