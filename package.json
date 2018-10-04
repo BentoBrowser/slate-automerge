@@ -7,10 +7,8 @@
   "author": "humandx",
   "license": "MIT",
   "dependencies": {
-    "automerge": "^0.8.0",
     "immutable": "^3.8.2",
     "immutablediff": "^0.4.4",
-    "slate": "^0.37.0",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
@@ -29,6 +27,10 @@
     "socket.io": "2.1.1",
     "socket.io-client": "2.1.1"
   },
+  "peerDependencies": {
+    "automerge": "^0.8.0",
+    "slate": "^0.37.0"
+  },
   "scripts": {
     "start": "react-scripts start & nodemon src/example/server/index.js",
     "server": "node src/example/server/index.js",
@@ -41,7 +43,6 @@
     "type": "git",
     "url": "git+https://github.com/humandx/slate-automerge.git"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/humandx/slate-automerge/issues"
   },
